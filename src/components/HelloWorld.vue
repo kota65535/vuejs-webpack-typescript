@@ -21,18 +21,17 @@
 </template>
 
 <script lang="ts">
-export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+  import Vue from 'vue'
+  import Component from 'vue-class-component'
+
+  @Component
+  export default class HelloWorld extends Vue {
+      msg: string = 'Welcome to Your Vue.js App'
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
 h1, h2 {
   font-weight: normal;
 }

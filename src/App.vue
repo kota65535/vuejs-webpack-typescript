@@ -5,13 +5,13 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   name: 'app'
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
